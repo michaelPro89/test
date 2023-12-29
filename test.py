@@ -83,29 +83,3 @@ f.close()
 ################# CSV DATA ##################
 
 
-# Rate_name
-# Number of Guests
-# Cancellation Policy
-# Price Boolean value if the room is a Top Deal
-# Currency
-
-
-
-#print(rooms['room_0']['name'])
-
-
-js = json.dumps(k[0].text) #CONVERT LIST to JSON
-
-
-
-##################################################
-
-
-#url = 'https://www.qantas.com/hotels/api/ui/properties/18482'
-
-#r = requests.get(url, headers=headers)
-
-
-#output_str = r.text
-
-#print(output_str.find())
